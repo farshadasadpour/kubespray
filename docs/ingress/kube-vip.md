@@ -82,6 +82,7 @@ kube_vip_control_plane_health_check_address: https://localhost:6443/livez
 
 `kube_vip_control_plane_health_check_ca_path` is only needed when the endpoint uses a certificate the health check
 client cannot verify with the system trust store, such as the cluster's own CA.
+
 If using [control plane load-balancing](https://kube-vip.io/docs/about/architecture/#control-plane-load-balancing):
 
 ```yaml
